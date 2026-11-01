@@ -1,0 +1,26 @@
+h1{
+    color: blue;
+    font-size: 2em;
+    background-color: lightgray;
+}
+.heading{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: darkblue;
+}
+.subheading{
+    font-size: 1.5em;
+    color: gray;
+    margin-top: 10px;
+}
+.heading:hover{
+    color: darkred;
+}
+.button_fetch{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
