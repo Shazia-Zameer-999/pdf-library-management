@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Search Results</title>
+
+    <link rel="stylesheet" href="/css/results.css" />
+    <script src="js/results.js" defer></script>
+  </head>
+
+  <body>
+    <header class="top-header">
+      <a href="index.html" class="logo">BookShelf<span>.</span></a>
+      <a href="index.html" class="back-link">← New Search</a>
+    </header>
+
+    <main class="page-container">
+      <section class="results-heading">
+        <p class="eyebrow">YOUR NEXT READ STARTS HERE</p>
+        <h1>Discover Books</h1>
+        <p class="subtitle">Explore books matching your search.</p>
+
+        <div class="search-summary">
+          <span>Search results for:</span>
+          <strong id="search-query">Loading...</strong>
+        </div>
+      </section>
+
+      <section class="books-section">
+        <div class="section-heading">
+          <h2>Books for you</h2>
+          <span id="result-count"></span>
+        </div>
+
+        <div id="results" class="book-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Discover something worth reading.</p>
+    </footer>
+  </body>
+</html>

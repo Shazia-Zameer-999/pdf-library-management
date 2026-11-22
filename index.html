@@ -1,19 +1,77 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF Library Management</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
+
+    <title>BookShelf - Discover Books</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/app.js" defer></script>
 </head>
+
 <body>
-    <h1 class="heading">PDF library Management</h1>
-    <h2 class="subheading">your pdfs</h2>
-    <!-- the pdfs will be dispayed here once the fetch button is clicked -->
-    <div id="library"></div>
-    <button id="api_btn">api key generation button</button>
-    <button id="fetch_btn" class="button_fetch">Fetch</button>
-    
+
+    <header class="top-header">
+        <a href="index.html" class="logo">BookShelf<span>.</span></a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="results.html">Explore</a>
+        </nav>
+    </header>
+
+    <main class="hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">A WORLD OF STORIES AWAITS</p>
+
+            <h1>
+                Find your next<br>
+                <span>great read.</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover books, explore new authors and build
+                your own personal reading collection.
+            </p>
+
+            <div id="search_bar">
+                <form id="search_form" action="">
+
+                    <input
+                        id="search_inp"
+                        class="search_input"
+                        type="text"
+                        placeholder="Search by title, author or keyword..."
+                        required
+                    >
+
+                    <button type="submit" class="search_btn">
+                        Search Books →
+                    </button>
+
+                </form>
+            </div>
+
+            <p class="search-hint">
+                Search millions of books through Open Library.
+            </p>
+
+        </div>
+
+        <div class="hero-decoration">
+            <div class="book-illustration">BOOKS</div>
+            <span class="decoration-text">READ. EXPLORE. DISCOVER.</span>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Made for people who love getting lost in books.</p>
+    </footer>
+
 </body>
 </html>
